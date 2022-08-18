@@ -1,0 +1,630 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  background-color: #ffffff;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  box-sizing: border-box;
+}
+/* Nav Bar */
+header {
+  width: 100%;
+  height: 91px;
+  background-color: #ffffff;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.Logo {
+  color: #252b42;
+  size: 28px;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+  gap: 21px;
+}
+nav ul li a {
+  color: #737373;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  color: #e74040;
+  transition: 0.3s;
+}
+.Btns {
+  gap: 45px;
+}
+.Button {
+  border: none;
+  padding: 12px 30px;
+  color: #252b42;
+  font-weight: bold;
+  font-size: 15px;
+  transition: 0.4s;
+  text-decoration: none;
+  gap: 45px;
+}
+.Button:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+}
+.Button2 {
+  border: none;
+  background: #e74040;
+  padding: 12px 30px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 15px;
+  transition: 0.4s;
+  text-decoration: none;
+}
+.Button2:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+}
+/*hero section*/
+.hero_section {
+  display: flex;
+  width: 100%;
+  height: 600px;
+  background: #eff8ed;
+}
+
+.hero_img {
+  width: 626px;
+  height: 731px;
+  left: 50%;
+}
+
+.hero_text {
+  text-align: left;
+  padding-left: 10%;
+  padding-top: 5%;
+}
+
+.hero_text h5 {
+  color: #96bb7c;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.hero_text h1 {
+  color: #252b42;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0.2px;
+  text-align: left;
+}
+
+.hero_text h4 {
+  color: #737373;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  text-align: left;
+}
+
+.btn {
+  display: flex;
+}
+
+.bn {
+  align-items: center;
+  padding: 12px 35px;
+  border: 2px solid #e74040;
+  gap: 10px;
+  width: 193px;
+  height: 52px;
+  background: #e74040;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.bn a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.bn.cn {
+  background: white;
+}
+
+.bn.cn a {
+  color: #252b42;
+}
+/*.grid{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}*/
+.bar {
+  width: 100px;
+  height: 2px;
+  background-color: red;
+}
+
+.card {
+  width: 300px;
+  height: 250px;
+  padding: 30px;
+  box-shadow: 4px 2px 5px rgba(0, 0, 0, 0.15);
+  margin: 30px;
+  gap: 31px;
+  align-items: center;
+  background-color: #ffffff;
+}
+.Flex_Container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  margin-top: -58px;
+  justify-content: center;
+}
+/* Affordablesection */
+.Flex_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 20px;
+}
+#Smallrectangle {
+  width: 94px;
+  height: 7px;
+  background-color: #e74040;
+}
+#sub_topic {
+  color: #252b42;
+  font-weight: 700px;
+  font-size: 40px;
+  line-height: 50px;
+}
+.section_img {
+  width: 598px;
+  height: 474px;
+}
+#learnmore {
+  color: #e74040;
+}
+/* schoolstatsection */
+.Schoolstat {
+  margin-left: 50px;
+}
+/* Footer  */
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  padding: 10px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.flex-item {
+  background-color: white;
+  text-align: left;
+  margin: auto;
+  padding: 0px;
+}
+.copyright-item {
+  background-color: whitesmoke;
+  padding: 15px;
+  text-align: left;
+}
+.img {
+  padding: 4px;
+  width: 25px;
+  height: 18px;
+  margin: auto;
+}
+.img2 {
+  float: right;
+  padding: 5px;
+  width: 25px;
+  height: 18px;
+}
+.img2:hover {
+  opacity: 0.5;
+  transition: 0.3s;
+}
+/*About us Hero*/
+.Abouthero_section {
+  width: 100%;
+  height: 300px;
+  background: #eff8ed;
+  padding: 0px;
+}
+.Abouthero_text {
+  color: #252b42;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  position: relative;
+  top: 100px;
+}
+table,
+th,
+td {
+  border: 1px solid #e74040;
+}
+.table {
+  display: grid;
+  place-content: center;
+  width: 100%;
+  overflow-x: auto;
+}
+.table h2 {
+  text-align: center;
+  opacity: 0.5;
+}
+.table_bg {
+  background-color: #e74040;
+}
+
+/* Second Section */
+
+#section2 {
+  width: 100%;
+  height: 1152px;
+  background-color: #ffffff;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: #ffffff;
+  width: 1050px;
+  height: 1152px;
+  justify-content: center;
+  gap: 112px;
+}
+
+/* first subsection */
+.row2a {
+  display: flex;
+  gap: 30px;
+  background-color: #ffffff;
+  width: 1050px;
+  height: 134px;
+  align-items: center;
+}
+
+/* for container of Title Paragraph and Tag */
+.row2a_content {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 691px;
+  height: 134px;
+  justify-content: space-between;
+}
+
+.section_tag {
+  color: #e74040;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.section_title {
+  color: #252b42;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.section_paragraph {
+  color: #737373;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+/* second subsection */
+
+/* for the part that contains all product cards */
+.row2b {
+  display: flex;
+  gap: 30px;
+  background-color: #ffffff;
+  width: 1050px;
+  height: 600px;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+/* for each card */
+.product_card {
+  display: flex;
+  width: 238px;
+  height: 600px;
+  flex-direction: column;
+}
+
+/* upper part (with class selector "fixed_height1") contains
+sales tag and product actions (the icons) */
+.fixed_height1 {
+  background-color: darkkhaki;
+  display: flex;
+  flex-direction: column;
+  width: 238px;
+  height: 300px;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+/* tag that has sales written inside */
+.tag {
+  display: flex;
+  width: 50px;
+  height: 24px;
+  background-color: #e74040;
+  color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 14px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}
+
+/* the 3 icons  */
+.product_actions {
+  display: flex;
+  width: 140px;
+  height: 40px;
+  margin: 0 auto 4px auto;
+  justify-content: space-between;
+}
+
+.circle {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  background-color: #ffffff;
+  color: #252b42;
+  align-items: center;
+  justify-content: center;
+}
+
+.material-symbols-sharp {
+  font-size: 24px;
+  color: #252b42;
+}
+
+/* lower part (with class selector "fixed_height2") contains
+info about the product (topic with rating,title, paragraph, sales, prices and learn more) */
+.fixed_height2 {
+  background-color: #ffffff;
+  display: flex;
+  width: 238px;
+  height: 300px;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-bottom: 35px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* topic with rating */
+.first {
+  background-color: #ffffff;
+  display: flex;
+  width: 197px;
+  height: 26px;
+  gap: 10px;
+}
+
+/* the topic */
+.first_a {
+  display: flex;
+  align-items: center;
+  color: #e74040;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+/* rating */
+.first_b {
+  display: flex;
+  width: 50px;
+  height: 26px;
+  border-radius: 20px;
+  background-color: #2d4059;
+  align-items: center;
+  gap: 5.5px;
+  justify-content: center;
+}
+
+.star {
+  display: flex;
+  width: 15px;
+  height: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+#star_icon {
+  color: #ffce31;
+  font-weight: 250;
+}
+
+.rating {
+  font-weight: 400;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+/* title */
+.product_title {
+  color: #252b42;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+/* paragraph */
+.product_paragraph {
+  color: #737373;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+/* sales */
+.sales {
+  display: flex;
+  gap: 10px;
+  width: 83px;
+  height: 24px;
+  align-items: center;
+}
+
+/* icon of sales */
+.frame_sales {
+  display: flex;
+  width: 16px;
+  height: 16px;
+  /* background-color: #737373; */
+  align-items: center;
+  justify-content: center;
+}
+
+#download {
+  color: #737373;
+}
+
+/* for the 15 sales */
+.sales_number {
+  color: #737373;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+/* prices */
+.price1 {
+  color: #bdbdbd;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.price2 {
+  color: #ffab71;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.prices {
+  display: flex;
+  gap: 5px;
+  padding: 5px 3px;
+}
+
+/* learn more button */
+button {
+  display: flex;
+  width: 144.14px;
+  height: 44px;
+  align-items: center;
+  border-radius: 37px;
+  padding: 10px 10px;
+  color: #e74040;
+  border: 1px solid #e74040;
+  background-color: #ffffff;
+  gap: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  justify-content: center;
+}
+
+#learn_more_arrow {
+  display: flex;
+  width: 10px;
+  height: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+#learn_arrow {
+  color: #e74040;
+}
+
+/* login */
+.container {
+  padding: 50px;
+  margin: 0px 10px;
+  height: 50%;
+}
+
+input[type='text'],
+input[type='password'] {
+  padding: 25px;
+  display: block;
+  width: 99%;
+  margin: 10px 0;
+}
+button {
+  width: 100%;
+  background-color: #e74040;
+  color: white;
+  padding: 14px;
+  margin: 15px;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  opacity: 0.9;
+  transition-delay: 0.15s;
+  color: black;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+}
+.imgphoto {
+  border-radius: 50%;
+  width: 10%;
+  opacity: 0.5;
+}
+/* style forgot password button */
+.fpsw {
+  float: left;
+  color: blue;
+}
+
+#sort,
+#sort1 {
+  cursor: pointer;
+}

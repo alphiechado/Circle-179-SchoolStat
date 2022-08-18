@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="media.css">
+    
+</head>
+<body>
+    <!--Nav-->
+    <header>
+        <div>
+            <nav>
+                <h2 class="Logo">ShiftSchool</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="schoolstat.html">SchoolStat</a></li>
+                </ul>
+                <div class="Btns">
+                    <a class="Button" href="login.html">Login</a>
+                    <a class="Button2" href="signup.html">Sign Up</a>
+                </div>
+                
+            </nav>
+        </div>
+    </header>
+</body>
+   <div class="container">
+    <h1>Register</h1>
+    <form action="/action_page.php">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" required>
+
+      <label for="lname">Last Name</label>
+      <input type="text" id="lastname" name="lastname" required>
+
+      <label for="phone">Phone</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="gender">Gender</label>
+      <select id="gender" name="gender">
+        <option value="select gender">Select Gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="select country">Select Country</option>
+        <option value="ghana">Ghana</option>
+        <option value="nigeria">Nigeria</option>
+        <option value="togo">Togo</option>
+      </select>
+      
+      <label for="state">State</label>
+      <select id="state" name="state">
+        <option value="select state">Select State</option>
+        <option value="accra">Accra</option>
+        <option value="lagos">Lagos</option>
+        <option value="lome">Lome</option>
+      </select>
+
+      <label for="usrname">Username</label>
+      <input type="text" id="usrname" name="usrname" required>
+
+      <label for="pwd">Password</label>
+      <input type="password" id="pwd" name="pwd" required>
+
+      <label for="confirmpwd">Confirm Password</label>
+      <input type="password" id="pwd" name="pwd" required>
+
+    <input type="submit" value="Register" class="Button2">
+    
+    </form>
+  </div>
+</body>
+
+      
+      
+        
+</html>
